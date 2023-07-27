@@ -3,14 +3,10 @@ This is a PHP-based web application that utilizes HTML5 QR code scanning to read
 
 Here's a breakdown of the code:
 
-PHP Code:
-
 The PHP section sets some HTTP headers to prevent caching of the web page to ensure that the QR code scanning process is always up-to-date.
 It defines the base URL ($base_url) which is later used in the JavaScript section to construct the URL for the server-side script.
-HTML Code:
 
 The HTML section contains a div element with the ID qr-reader, which will be used as the container for the QR code scanner.
-JavaScript Code:
 
 The JavaScript section starts by importing two external scripts: html5-qrcode.min.js for QR code scanning and SweetAlert2 for displaying alert messages.
 The Html5QrcodeScanner class is initialized with the container ID (qr-reader), and some options like frames per second (fps) and the size of the QR code box (qrbox).
